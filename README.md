@@ -1,5 +1,5 @@
 # k8s-wp
-Simple two tier application using WordPress and MySQL on Kubernetes. The goal of this
+Simple two-tier application using WordPress and MySQL on Kubernetes. The goal of this
 challenge is to touch upon the following concepts:
 
 - PODs, ReplicaSets, Deployments
@@ -10,6 +10,20 @@ challenge is to touch upon the following concepts:
 
 Inspired by [Mumshad's](https://github.com/mmumshad) [Kubernetes Hands On Challenge](https://github.com/kodekloudhub/kubernetes-challenge-1-wordpress).
 
+
+# Deploy
+
+The simplest way to deploy the WP app is to use the `make` command:
+
+```bash
+$ make deploy
+```
+
+If you want to clean up just do:
+
+```bash
+$ make destroy
+```
 
 # Use Shortcuts/Aliases
 
@@ -38,6 +52,10 @@ which is a bit faster :)
 
 
 # Chapters we've covered
+
+These are chapters you need to read to understand how this application works. These
+are also chapters required for
+[Certified Kubernetes Administrator (CKA) Program](https://www.cncf.io/certification/cka/).
 
 1. [Commands and Arguments](#commands-and-arguments)
 1. [Environment Variables](#environment-variables)
